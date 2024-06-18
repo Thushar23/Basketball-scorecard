@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard with Timer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header><h2>BASKET BALL</h2></header>
+<div class="body">
+    <div class="container">
+        <div class="div1">
+            <h3>TEAM1</h3>
+            <p id="hcount">0</p>
+            <button onclick="inch1()">+1</button>
+            <button onclick="inch2()">+2</button>
+            <button onclick="inch3()">+3</button>
+        </div>
+        <div class="timer-container">
+            <h4>Timer</h4>
+            <p id="timer">00:00</p>
+            <button onclick="startTimer()">Start Timer</button>
+            <button onclick="stopTimer()">Stop Timer</button>
+            <button onclick="resetTimer()">Reset Timer</button>
+            <button onclick="resetPoints()">Reset Points</button>
+        </div>
+        <div class="div3">
+            <h3>TEAM2</h3>
+            <p id="gcount">0</p>
+            <button onclick="incg1()">+1</button>
+            <button onclick="incg2()">+2</button>
+            <button onclick="incg3()">+3</button>
+        </div>
+    </div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>

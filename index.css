@@ -1,0 +1,112 @@
+.body {
+    background-image: url(./th.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    margin-top: 0px;
+    /* justify-content: center; */
+    text-align: center;
+    font-size: large;
+    margin-bottom: 0px;
+}
+h2{
+    color: #F94F6D;
+}
+.container {
+    padding-bottom: 30px;
+    width: 600px;
+    height: 385px;
+    background-color: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Center items vertically */
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0px 0px 12px 1px black;
+}
+
+p {
+    background-color: black;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    font-family: 'Digital-7', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: transparent;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px 0px 0px 0px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer; /* Add cursor pointer */
+    margin-top: 10px; /* Adjust spacing */
+}
+
+.timer-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust spacing */
+}
+
+.timer-container h4 {
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: 650;
+    margin-bottom: 10px; /* Adjust spacing */
+}
+
+.timer-container p {
+    background-color: black;
+    color: #F94F6D;
+    width: 150px;
+    height: 90px;
+    font-family: 'Digital-7', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 90px;
+    text-align: center;
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 10px; /* Adjust spacing */
+}
+
+.timer-container button {
+    background-color: transparent;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px 0px 0px 0px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer; /* Add cursor pointer */
+    margin-top: 10px; /* Adjust spacing */
+}
+#timer{
+    font-size: 50px;
+}
+.div1{
+    margin-left: 15px;
+}
+.div3{
+    margin-right: 15px;
+}
